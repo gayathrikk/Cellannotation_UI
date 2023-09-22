@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: Sanitytesting.CellanotationUI.Cell
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 77.986 s <<< FAILURE! - in Sanitytesting.CellanotationUI.Cell
+Sanitytesting.CellanotationUI.Cell.celldetection  Time elapsed: 6.674 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Relearn [failed]> but was:<Relearn [success]>
+	at Sanitytesting.CellanotationUI.Cell.celldetection(Cell.java:106)
+
+Sanitytesting.CellanotationUI.Cell.centroidDetection  Time elapsed: 6.142 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Relearn [failed]> but was:<Relearn [success]>
+	at Sanitytesting.CellanotationUI.Cell.centroidDetection(Cell.java:120)
+
+Sanitytesting.CellanotationUI.Cell.Rabies  Time elapsed: 7.084 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Relearn [failed]> but was:<Relearn [success]>
+	at Sanitytesting.CellanotationUI.Cell.Rabies(Cell.java:136)
+
+Sanitytesting.CellanotationUI.Cell.save  Time elapsed: 5.215 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//nb-toast//span[text()='Save']/following-sibling::div[@class='message']"}
+  (Session info: chrome=115.0.5790.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vivobook-asuslaptop-x512flc-x512fl', ip: '10.42.251.191', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-32-generic', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: /tmp/.org.chromium.Chromium...}, goog:chromeOptions: {debuggerAddress: localhost:36457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.3:4444/sessio..., se:cdpVersion: 115.0.5790.110, se:vnc: ws://172.17.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc84e3910af74cf92b63b1c35998086c
+*** Element info: {Using=xpath, value=//nb-toast//span[text()='Save']/following-sibling::div[@class='message']}
+	at Sanitytesting.CellanotationUI.Cell.save(Cell.java:159)
+
