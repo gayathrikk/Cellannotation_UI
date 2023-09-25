@@ -81,6 +81,7 @@ public class Cell {
 			driver.findElement(By.xpath("//a[@title='Cell Annotation']")).click();
 			Thread.sleep(5000);
 			driver.findElement(By.xpath("(//nb-icon[@pack='nebular-essentials'])[6]")).click();
+			Thread.sleep(2000);
 			driver.findElement(By.xpath("//input[@placeholder='Tile Number']")).sendKeys("860");
 			driver.findElement(By.xpath("//button[text()='Go to']")).click();
 			driver.findElement(By.xpath("//a[@title='Tile Annotation']")).click();
