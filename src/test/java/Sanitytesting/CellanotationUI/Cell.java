@@ -105,7 +105,7 @@ public class Cell {
 			  String expectedFileName2 = "Relearn success"; 
 			  Assert.assertEquals(expectedFileName2, actualFileName2);
 			  System.out.println("EP1 firstpass Relearn success");
-			  Thread.sleep(3000);
+			  Thread.sleep(5000);
 		}
 		@Test(priority=5)
 
@@ -119,7 +119,7 @@ public class Cell {
 			  String expectedFileName2 = "Relearn success"; 
 			  Assert.assertEquals(expectedFileName2,actualFileName2);
 			  System.out.println("EP4 firstpass Relearn success");
-			  Thread.sleep(3000);
+			  Thread.sleep(5000);
 
 		  }
 
@@ -135,7 +135,7 @@ public class Cell {
 			  String expectedFileName3 = "Relearn success"; 
 			  Assert.assertEquals(expectedFileName3, actualFileName3);
 			  System.out.println("EP7 firstpass Relearn success");
-			  Thread.sleep(3000);
+			  Thread.sleep(5000);
 		  }
 		  @Test(priority=7)
 
@@ -146,6 +146,7 @@ public class Cell {
 			  driver.findElement(By.xpath("//a[@title='Clear and Add  First Pass']")).click();
 			  Thread.sleep(2000);
 			  System.out.println("Cleared and First pass added");
+			  Thread.sleep(5000);
 		  }
 
 		  @Test(priority=8)
@@ -161,6 +162,7 @@ public class Cell {
 			  String expectedFileName4 = "Saved Successfullly"; 
 			  Assert.assertEquals(actualFileName4, expectedFileName4);
 			  System.out.println("Saved Successfully");
+			  Thread.sleep(3000);
 		  }
 		  @AfterTest
 
